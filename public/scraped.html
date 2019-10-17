@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mongo Scraper</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/materia/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="/">Mongo Scraper</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/saved">Saved Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-danger clear">CLEAR ARTICLES!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <div class="overlay">
+        </div>
+        <div class="background-image">
+        </div>
+        <div class="caption">
+            <h1>Mongo Scraper</h1>
+            <p>New York Times Edition</p>
+        </div>
+    </div>
+    <div class="container-fluid article-container">
+        <div data-_id="5da80774c985cd0015fb1d30" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/16/sports/soccer-racism-england-bulgaria.html">In Fight
+                        Against Racism, Soccer Can Choose the Playing Field</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">There is no reason that any player, white or black, should have to go to a country or
+                a stadium with a history of racist abuse.</div>
+        </div>
+        <div data-_id="5da80774c985cd0015fb1d2e" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/17/opinion/abiy-ahmed-nobel-peace-prize.html">Abiy Ahmed
+                        Won the Nobel Peace Prize. Now He Needs to Earn It.</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">The Abyssinian spring in Ethiopia has entered a critical phase.</div>
+        </div>
+        <div data-_id="5da80774c985cd0015fb1d2f" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/15/realestate/adu-empty-garages-california-housing-shortage.html">Is
+                        This the Answer to California’s Housing Shortage?</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">Converting some of Los Angeles County’s 250,000 detached garages into apartments
+                could address multiple problems.</div>
+        </div>
+        <div data-_id="5da80774c985cd0015fb1d2d" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/16/us/chicago-schools-teachers-strike.html">Chicago
+                        Teachers Announce Strike in Nation’s Third-Largest District</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">The Chicago Teachers Union and the city’s new mayor failed to reach a contract deal.
+                Classes were canceled for 300,000 public school students on Thursday.</div>
+        </div>
+        <div data-_id="5da80774c985cd0015fb1d2c" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/16/health/opioids-settlement-distributors.html">Drug
+                        Giants Pursuing $50 Billion Settlement of Opioid CasesThe China Connection: How One D.E.A. Agent
+                        Cracked a Global Fentanyl Ring</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">The nation’s three largest drug distributors, as well as two manufacturers, are in
+                negotiations to settle thousands of cases before a trial set to begin on Monday.Fentanyl is quickly
+                becoming America’s deadliest drug. But law enforcement couldn’t trace it to its source — until a
+                teenager overdosed in North Dakota.</div>
+        </div>
+        <div data-_id="5da80774c985cd0015fb1d2b" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/16/us/politics/pete-buttigieg-military-service.html">Two-Person
+                        Race? Moderates and Bernie Sanders Say, Not So Fast</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">Amy Klobuchar and Mr. Buttigieg are vying to become the pragmatic alternative to Joe
+                Biden. Mr. Sanders is trumpeting endorsements to compete with Elizabeth Warren.</div>
+        </div>
+        <div data-_id="5da80774c985cd0015fb1d2a" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/16/us/politics/pete-buttigieg-military-service.html">‘I
+                        Don’t Need Lessons From You on Courage’: Buttigieg Makes His CaseTwo-Person Race? Moderates and
+                        Bernie Sanders Say, Not So FastMr. Biden has fallen far behind in campaign fund-raising.</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">On the Democratic debate stage Tuesday night, Pete Buttigieg didn’t brag about his
+                military service. But he did outflank his rivals.Amy Klobuchar and Mr. Buttigieg are vying to become the
+                pragmatic alternative to Joe Biden. Mr. Sanders is trumpeting endorsements to compete with Elizabeth
+                Warren.</div>
+        </div>
+        <div data-_id="5da80774c985cd0015fb1d29" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/16/us/trump-impeachment-witnesses.html">Trump’s
+                        Impeachment Blockade Crumbles as Witnesses Agree to TalkWhite House Aide Feared Trump Appointee
+                        Was National Security RiskAnother official spoke with investigators, and Congress settled in
+                        before a big day of testimony. Catch up on the latest.</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">After vowing not to cooperate with a “kangaroo court,” President Trump has largely
+                failed to prevent current and former administration members from doing so.A former top White House
+                adviser told House investigators that she saw Gordon Sondland, a Trump donor named an envoy, as a risk
+                because he was so unprepared for his job.</div>
+        </div>
+        <div data-_id="5da80774c985cd0015fb1d28" class="card">
+            <div class="card-header">
+                <h3>
+                    <a class="article-link" target="_blank" rel="noopener noreferrer"
+                        href="https://www.nytimes.com/2019/10/16/us/politics/trump-pelosi-white-house.html">Inside a
+                        Derailed White House Meeting“Don’t be a fool! I will call you later.” Read the letter Mr. Trump
+                        sent to Turkey’s leader.</a>
+                    <a class="btn btn-success save">Save Article</a>
+                </h3>
+            </div>
+            <div class="card-body">“I hate ISIS more than you do,” President Trump said. “You don’t know that,” Speaker
+                Nancy Pelosi replied. Here’s the rest of their exchange.</div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>New York Times Mongo Scraper</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    <script src="/assets/javascript/index.js"></script>
+
+</body>
+
+</html>
