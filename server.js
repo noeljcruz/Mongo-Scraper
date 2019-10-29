@@ -30,7 +30,7 @@ app.use(express.static("./public"));
 
 // Handlebars
 var exphb = require("express-handlebars");
-app.engine("handlebars", exphb({ defaultLayout: "man" }));
+app.engine("handlebars", exphb({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
