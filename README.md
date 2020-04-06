@@ -1,20 +1,21 @@
-# POKEMON MEMORY GAME
+# MONGO NEWS SCRAPER
 
-An interactive game that will test out your memory skills! Play with the top characters of Pokemon like Pikachu and Eevee.
+Grab the latest headlines using our web scraper! stores and renders the information using MongoDB.
 
-![Pokemon Game](public/images/ss.png)
+<!-- ![Pokemon Game](public/images/ss.png) -->
 
-## HOW TO PLAY
+<!-- ## HOW TO PLAY -->
 
-Click on each Pokemon character without clicking on the same one twice! Shoot for a high score of 15! 
+<!-- Click on each Pokemon character without clicking on the same one twice! Shoot for a high score of 15!  -->
 
-## Deployed on Heroku
+<!-- ## Deployed on Heroku -->
 
-[Click Here to Play](https://clicky-game-njc.herokuapp.com/)
+<!-- [Click Here to Play](https://clicky-game-njc.herokuapp.com/) -->
 
 ## Built With
-* ReactJS
 * Javascript
+* Handlebars
+* MongoDB
 
 ## Authors
 
