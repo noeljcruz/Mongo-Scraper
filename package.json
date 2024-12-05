@@ -18,13 +18,13 @@
   },
   "homepage": "https://github.com/noeljcruz/Mongo-Scraper#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.7.9",
     "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "express-handlebars": "^6.0.6",
     "lodash": "^4.17.21",
-    "mongoose": "^5.12.7",
+    "mongoose": "^8.8.3",
     "morgan": "^1.9.1",
     "mquery": "^3.2.3",
     "request": "^2.88.0"
